@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".kotlinIntro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin Operater"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/back_operater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BACK" />
+
+
+                    <Button
+                        android:id="@+id/home_operater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HOME" />
+                    <Button
+                        android:id="@+id/next_operater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NEXT" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kotlin Operators "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Operators are used to perform operations on variables and values. "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="The value is called an operand, while the operation (to be performed between the two operands) is defined by an operator: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:src="@drawable/kotlin_operator_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="In the example below, the numbers 100 and 50 are operands, and the + sign is an operator: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Example "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" fun main() { \n
+  var x = 100 + 50\n
+  println(x)\n
+} "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Although the + operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or a variable and a variable: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Example "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Kotlin divides the operators into the following groups: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 1. Arithmetic operators\n\n
+2. Assignment operators\n\n
+3. Comparison operators\n\n
+4. Logical operators\n\n
+ "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1. Arithmetic Operators "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Arithmetic operators are used to perform common mathematical operations. "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="CODE"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Output"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 8\n
+2\n
+15\n
+1\n
+2\n
+6\n
+9"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="2.  Assignment Operators"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Assignment operators are used to assign values to variables."
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Example"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" fun main() {\n
+  var x = 10\n
+  println(x)\n
+}"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Output"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="10 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="The addition assignment operator (+=) adds a value to a variable: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Example"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" fun main() { \n
+  var x = 10\n
+  x += 5\n
+  println(x)\n
+}"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Output"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 15 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" A list of all assignment operators:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="168dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Code"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="287dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Output"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" 5\n
+8\n
+5\n
+15\n
+5\n
+2"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Comparison Operators "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Comparison operators are used to compare two values, and returns a Boolean value: either true or false.
+
+ "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Code"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="109dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Output "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" false\n
+true\n
+true\n
+false\n
+true\n
+false"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4. Logical Operators"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Logical operators are used to determine the logic between variables or values: "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_8" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Code"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="141dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kotlin_operator_10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Output "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" true\n
+true\n
+false"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

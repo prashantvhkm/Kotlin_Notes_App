@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".kotlin_variable">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="KOTLIN VARIABLE"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/back_variable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BACK" />
+
+                    <Button
+                        android:id="@+id/home_variable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HOME" />
+
+                    <Button
+                        android:id="@+id/next_variable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NEXT" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kotlin Variables"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" \nVariables are containers for storing data values.\n\nTo create a variable, use var or val, and assign a value to it with the equal sign (=):  "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Syntax : "
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="\nvar variableName = value\n\nval variableName = value     "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="\nThe difference between var and val is that variables declared with the var keyword can be changed/modified, while val variables cannot. "
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    android:src="@drawable/kotlin_vriable" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text="     " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Variable Type"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Unlike many other programming languages, variables in Kotlin do not need to be declared with a specified type (like String for text or Int for numbers, if you are familiar with those)."
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="To create a variable in Kotlin that should store text and another that should store a number, look at the following example:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    android:src="@drawable/kotlin_vriable" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kotlin is smart enough to understand that 'John' is a String (text), and that 1975 is an Int (number) variable."
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="However, it is possible to specify the type if you insist:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    android:src="@drawable/kotlin_vriable_inner" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="You can also declare a variable without assigning the value, and assign the value later. However, this is only possible when you specify the type:"
+                    android:textColor="@color/textcolor"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="325dp"
+                    android:layout_height="105dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/kotlin_variable_1" />
+                <ImageView
+                    android:layout_width="325dp"
+                    android:layout_height="105dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/kotlin_variable_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:text=""/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

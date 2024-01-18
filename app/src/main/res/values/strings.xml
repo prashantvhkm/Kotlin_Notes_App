@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Kotlin Notes App</string>
+    <string name="stringintro">
+
+        <h6>What is Kotlin?</h6><br></br>
+        <br>Kotlin is a modern, trending programming language that was released in 2016 by JetBrains.</br>
+        <br>It has become very popular since it is compatible with Java (one of the most popular programming languages out there), which means that Java code (and libraries) can be used in Kotlin programs.</br>
+        <br>Kotlin is used for:</br>
+        <br>Mobile applications (specially Android apps)</br>
+        <br>Web development</br>
+        <br>Server side applications</br>
+        <br>Data science</br>
+    </string>
+
+    <string name="code">
+        fun main() {\n
+            println("Hello World")\n
+        }\n
+    </string>
+
+    <string name="output">The Android SDK is a software development kit that includes a comprehensive set of development tools.[2][3] These include a debugger, libraries, a handset emulator based on QEMU, documentation, sample code, and tutorials. Currently supported development platforms include computers running Linux (any modern desktop Linux distribution), Mac OS X 10.5.8 or later, and Windows 7 or later. As of March 2015, the SDK is not available on Android itself, but software development is possible by using specialized Android applications.[4][5][6]
+platform development. The SDK also supports older versions of the Android platform in case developers wish to target their applications at older devices. Development tools are downloadable components, so after one has downloaded the latest version and platform, older platforms and tools can also be downloaded for compatibility testing.[11]
+
+Android applications are packaged in .. APK package contains .dex files[12] (compiled byte code files called Dalvik executables), resource files, etc.The Android SDK is a software development kit that includes a comprehensive set of development tools.[2][3] These include a debugger, libraries, a handset emulator based on QEMU, documentation, sample code, and tutorials. Currently supported development platforms include computers running Linux (any modern desktop Linux distribution), Mac OS X 10.5.8 or later, and Windows 7 or later. As of March 2015, the SDK is not available on Android itself, but software development is possible by using specialized Android applications.</string>
+</resources>

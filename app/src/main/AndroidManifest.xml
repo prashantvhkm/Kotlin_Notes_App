@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinNotesApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".kotlin_inheritance"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_class_function"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_contsructor"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_classas_object"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_oop"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_function"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_range"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_loop"
+            android:exported="false" />
+        <activity
+            android:name=".kolin_array"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_continue"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_break"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_when"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_ifelse"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_boolean"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_string"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_operater"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_datatype"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_variable"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_comment"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_output"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin_syntax"
+            android:exported="false" />
+        <activity
+            android:name=".kotlinIntro"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinHome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

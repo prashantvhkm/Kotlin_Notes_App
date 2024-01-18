@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".KotlinHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin Tutorial"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Introduction" />
+
+                <Button
+                    android:id="@+id/syntax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin syntax" />
+
+                <Button
+                    android:id="@+id/output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Output" />
+
+                <Button
+                    android:id="@+id/comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Comments" />
+                <Button
+                    android:id="@+id/variable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Variable" />
+
+                <Button
+                    android:id="@+id/datatype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Datatype" />
+
+                <Button
+                    android:id="@+id/operator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Operator" />
+
+                <Button
+                    android:id="@+id/string"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin String" />
+                <Button
+                    android:id="@+id/booleann"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Boolean" />
+
+                <Button
+                    android:id="@+id/ifelse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin if else" />
+
+                <Button
+                    android:id="@+id/when"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin When" />
+
+                <Button
+                    android:id="@+id/whileloop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin While Loop" />
+                <Button
+                    android:id="@+id/breakk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Break" />
+
+                <Button
+                    android:id="@+id/continuee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Continue" />
+
+                <Button
+                    android:id="@+id/array"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="kotlin Array" />
+
+                <Button
+                    android:id="@+id/forloop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin For Loop" />
+                <Button
+                    android:id="@+id/range"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Range" />
+
+                <Button
+                    android:id="@+id/function"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Function" />
+
+                <Button
+                    android:id="@+id/oop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin OOP" />
+
+                <Button
+                    android:id="@+id/classas_object"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Classas or Object" />
+
+                <Button
+                    android:id="@+id/contstructor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Contstructor" />
+
+                <Button
+                    android:id="@+id/classfunction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Class Function" />
+
+                <Button
+                    android:id="@+id/inheritance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kotlin Inheritance" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
